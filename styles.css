@@ -1,0 +1,51 @@
+*{
+  font-family: sans-serif;
+}
+
+li {
+  list-style-type: none;
+  font-size: 16pt;
+}
+
+.mail {
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 400px;
+  background: #d8f1f8;
+  border: 1px soild silver;
+  color: #000;
+}
+
+.mail h2 {
+  margin-left: 38px;
+}
+
+input {
+  font-size: 20pt;
+}
+
+input submit {
+  font-size: 12pt;
+}
+
+.rq {
+  color: #ff0000;
+  font-size: 10pt;
+}
+
+#match{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+input{
+  margin-bottom: 5%;
+}
+#head1{
+  text-align: center;
+}
+
+#button{
+  width: 92.5%;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>JavaScript Goodmatches</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+  </head>
+  <body>
+    <div class="mail">
+      <h1 id="head1">Goodmatches</h1>
+      <h2>Enter Names to Find Match</h2>
+      <form name="form1" action="#" onsubmit="return false">
+        <ul>
+          <li>Name: #1</li>
+          <li><input id="textty" type="text" name="text1" /></li>
+          <li>Name: #2</li>
+          <li><input id="wall" type="text" name="text2" /></li>
+          <li class="rq">*Enter Alphabetic Characters Only.</li>
+          <li>&nbsp;</li>
+          <li>
+            <button
+              id="button"
+              type="submit"
+              name="submit"
+              value="Submit"
+              onclick="allLetter(document.form1.text1);
+              nextLetter(document.form1.text2);
+              output()"
+
+            > MATCH</button>
+            
+          </li>
+          <li>&nbsp;</li>
+        </ul>
+      </form>
+      <p id="match"></p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
