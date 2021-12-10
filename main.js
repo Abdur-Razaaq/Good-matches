@@ -5,6 +5,7 @@ function allLetter(inputtxt) {
     return true;
   } else {
     alert("Please input alphabetic characters only");
+    location.reload();
     return false;
   }
 }
@@ -16,6 +17,7 @@ function nextLetter(inputtxt) {
     return true;
   } else {
     alert("Please input alphabetic characters only");
+    location.reload();
     return false;
   }
 }
